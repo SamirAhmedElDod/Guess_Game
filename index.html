@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Guess By Samir</title>
+</head>
+<body>
+  <div class="container">
+    <div class="game_body">
+      <div class="header_Flex">
+        <div class="title">Welcome , <br> This Is Gme Made By Samir Ahmed.</div>
+        <div class="margin">
+          <label for="guest_name" class="edit">Your Name :</label>
+          <input class="guest_name" id="guest_name" type="text" placeholder="Samir Ahmed">
+          <button class="guest_return">Done</button>
+        </div>
+      </div>
+      <div class="the_Name">
+        <h4 class="header">Hello , <Span class="name_top"></Span></h4>
+      </div>
+      <div class="body_flex">
+        <div class="first_flex">
+          <div class="guess">Guess The Number </div>
+          <ion-icon name="happy-outline" class="face_Icon"></ion-icon>
+        </div>
+        <div class="second_flex"><ion-icon name="help-outline"></ion-icon></div>
+      </div>
+      <div class="footer_flex">
+        <div class="check">
+          <input type="text" id="#check" placeholder="1-20" class="check_input">
+          <button for="#check" class="check_box">Check <ion-icon name="skull-outline" class="ion"></ion-icon></button>
+        </div>
+        <div class="left">
+          <h4>Your Score : <span class="score_num"></span></h4>
+          <!-- <h4>Your High Score : <span>100</span></h4> -->
+        </div>
+      </div>
+      <div class="last_foot">
+          <button class="again">Play Again <ion-icon name="git-compare-outline"></ion-icon></button>
+          <h5 class="cc">Choose Between 1 - 20</h5>
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
